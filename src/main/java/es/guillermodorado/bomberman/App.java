@@ -132,7 +132,7 @@ public class App extends Application {
         groupladrillo2.getChildren().add(sep24);
         groupladrillo2.getChildren().add(sep25);
         
-        paneRoot.getChildren().add(groupladrillo1);
+        paneRoot.getChildren().add(groupladrillo2);
         
          //Ladrillo Top layer
         lad25.setX(100);
@@ -176,6 +176,92 @@ public class App extends Application {
         sep24.setY(110);
         sep25.setX(123);
         sep25.setY(110);
+        
+        //Ladrillo 3
+        Rectangle lad31 = new Rectangle(28,10);
+        Rectangle lad32 = new Rectangle(8,10);
+        Rectangle lad33 = new Rectangle(8,10);
+        Rectangle lad34 = new Rectangle(8,10);
+        Rectangle lad35 = new Rectangle(13,10);
+        Rectangle lad36 = new Rectangle(13,10);
+        Rectangle lad37 = new Rectangle(13,10);
+        Rectangle lad38 = new Rectangle(13,10);
+        Rectangle sep31 = new Rectangle(2,10);
+        Rectangle sep32 = new Rectangle(2,10);
+        Rectangle sep33 = new Rectangle(2,10);
+        Rectangle sep34 = new Rectangle(2,10);
+        Rectangle sep35 = new Rectangle(2,10);
+       
+        // Agrupación 1
+        Group groupladrillo3 = new Group();
+        groupladrillo3.getChildren().add(lad31);
+        groupladrillo3.getChildren().add(lad32);
+        groupladrillo3.getChildren().add(lad33);
+        groupladrillo3.getChildren().add(lad34);
+        groupladrillo3.getChildren().add(lad35);
+        groupladrillo3.getChildren().add(lad36);
+        groupladrillo3.getChildren().add(lad37);
+        groupladrillo3.getChildren().add(lad38);
+        groupladrillo3.getChildren().add(sep31);
+        groupladrillo3.getChildren().add(sep32);
+        groupladrillo3.getChildren().add(sep33);
+        groupladrillo3.getChildren().add(sep34);
+        groupladrillo3.getChildren().add(sep35);
+        
+        paneRoot.getChildren().add(groupladrillo3);
+                
+        //Ladrillo Top layer
+        lad35.setX(100);
+        lad35.setY(90);
+        lad35.setFill(Color.DARKGOLDENROD);
+        lad33.setX(115);
+        lad33.setY(90);
+        lad33.setFill(Color.DARKGOLDENROD);
+        lad36.setX(125);
+        lad36.setY(90);
+        lad36.setFill(Color.DARKGOLDENROD);
+        
+        sep32.setX(113);
+        sep32.setY(90);
+        sep33.setX(123);
+        sep33.setY(90);
+        
+        //Mid
+        lad31.setX(100);
+        lad31.setY(100);
+        lad31.setFill(Color.DARKGOLDENROD);
+        lad32.setX(130);
+        lad32.setY(100);
+        lad32.setFill(Color.DARKGOLDENROD);
+        
+        sep31.setX(128);
+        sep31.setY(100);
+        
+        //Bottom layer
+        lad34.setX(100);
+        lad34.setY(110);
+        lad34.setFill(Color.DARKGOLDENROD);
+        lad37.setX(110);
+        lad37.setY(110);
+        lad37.setFill(Color.DARKGOLDENROD);
+        lad38.setX(125);
+        lad38.setY(110);
+        lad38.setFill(Color.DARKGOLDENROD);
+        
+        sep34.setX(108);
+        sep34.setY(110);
+        sep35.setX(123);
+        sep35.setY(110);
+
+        groupladrillo1.setLayoutX(60);
+        groupladrillo1.setLayoutY(60);
+        
+        groupladrillo2.setLayoutX(200);
+        groupladrillo2.setLayoutY(200);
+        
+        groupladrillo3.setLayoutX(400);
+        groupladrillo3.setLayoutY(400);
+ 
         
     }
 
