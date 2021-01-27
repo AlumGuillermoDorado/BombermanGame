@@ -1,9 +1,10 @@
 package es.guillermodorado.bomberman;
 
 import javafx.application.Application;
-import static javafx.print.PrintColor.COLOR;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
@@ -24,6 +25,12 @@ public class App extends Application {
         stage.setTitle("BombermanGame");
         stage.show();
         
+        // Imagen de fondo
+        Image img = new Image(getClass().getResourceAsStream("/images/400x400v2.jpg"));
+        ImageView imgView = new ImageView(img);
+        imgView.setX(100);
+        imgView.setY(60);
+        paneRoot.getChildren().add(imgView);
         
         //Ladrillo 1
         Rectangle lad1 = new Rectangle(28,10);
@@ -261,7 +268,6 @@ public class App extends Application {
         
         groupladrillo3.setLayoutX(400);
         groupladrillo3.setLayoutY(400);
- 
         
     }
 
